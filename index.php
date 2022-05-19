@@ -21,7 +21,7 @@ var_dump("la brutta parola è $badWords"); // verifico in console
  * $parag => nel mio paragrafo verrà filtrata la badWords e riceverà valore '***'
  */
 $censor = str_replace($badWords, '***', $parag);
-$censor_length = strlen($censor_length); // la sua lunghezza la salvo in altro parametro
+$censor_length = strlen($censor); // la sua lunghezza la salvo in altro parametro
 var_dump("In console esce $censor e la sua lunghezza è $censor_length"); // Verifico ancora in console
 
 ?>
